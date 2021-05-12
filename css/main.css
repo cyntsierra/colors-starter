@@ -73,13 +73,16 @@ footer {
 
   #column-3 {
     background-color:white ;
+    width: 100%;
   }
 
   footer {
     background-color:white ;
   }
 
-}
+  .col-3 {
+    width: 50%;
+  }
 
 
 /*---------- Desktops ----------*/
@@ -98,10 +101,13 @@ footer {
 
   #column-3 {
     background-color: orange;
+    width: 33.3%;
   }
 
   footer {
     background-color:blue ;
   }
-
+  .col-3 {
+    width: 33.3%;
+  }
 }
